@@ -5,12 +5,16 @@
 }
 
 html {
-    max-width: 1920px;
-margin: auto;}
+background-color: #202C31;
+
+}
+
 
 body {
     min-height: 100vh;
-    width: auto;
+    max-width: 1920px;
+    margin: auto;
+
     color: antiquewhite;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;

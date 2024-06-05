@@ -33,4 +33,3 @@ Para su construcción se utilizan los conocimientos aprendidos sobre HTML, CSS -
 ------------
 
 Aún queda mucho por mejorar pero sigo conforme con el avance y resultado logrado en esta segunda pre-entrega.
-###End

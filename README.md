@@ -3,7 +3,7 @@
 ------------
 
 
-### CONTIENE  :tw-1f44d:
+### CONTIENE 
 
 
 Contenido del sitio:
@@ -23,7 +23,7 @@ Para su construcción se utilizan los conocimientos aprendidos sobre HTML, CSS -
 
 ------------
 
-### PENDIENTE :tw-1f44e:
+### PENDIENTE
 
 - En menú vertical poder implementar un menú de tipo "hamburguesa".
 - Mejorar los botones en el menú en su version horizontal.

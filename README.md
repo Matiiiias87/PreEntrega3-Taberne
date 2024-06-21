@@ -1,7 +1,10 @@
-# PRE ENTREGA 2 - DESARROLLO WEB
+# PRE ENTREGA 3 - DESARROLLO WEB
 
 ------------
 
+Se trabaja con SASS, construyendo la estructura sugerida en clase.
+Se realizan algunas animaciones y mejoras esteticas en el sitio.
+Se mejoran los botones en el menú horizontal aunque siguen sin conformar, falta trabajo, faltó tiempo.
 
 ### CONTIENE 
 
@@ -28,8 +31,7 @@ Para su construcción se utilizan los conocimientos aprendidos sobre HTML, CSS -
 - En menú vertical poder implementar un menú de tipo "hamburguesa".
 - Mejorar los botones en el menú en su version horizontal.
 - Hacer funcional el formulario de contactos.
-- Mejorar aquellos aspectos que se sugiera en la devolución.
 
 ------------
 
-Aún queda mucho por mejorar pero sigo conforme con el avance y resultado logrado en esta segunda pre-entrega.
+Sigue faltando mucho, pero creo haber podido cumplir con la entrega.

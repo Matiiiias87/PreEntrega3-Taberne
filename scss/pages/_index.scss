@@ -1,0 +1,102 @@
+.portada-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    height: 80%;
+    padding: 30px 10px 0px 10px;
+
+    img {
+        width: 90%;
+        grid-row: 1/2;
+        align-self: center;
+        border-radius: 10px;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 1);
+    }
+
+    .texto-portada {
+        grid-row: 2/3;
+        align-content: start;
+        text-align: justify;
+        padding: 50px 40px 0px 40px;
+    }
+
+    @include mq-sm {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: none;
+        justify-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: 0px 10px 0px 10px;
+        position: relative;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        width: 100%;
+        height: 70%;
+
+        img {
+            width: 90%;
+            grid-column: 1/2;
+            align-self: center;
+        }
+
+        .texto-portada {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            align-content: center;
+        }
+    }
+
+    @include mq-lg {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: none;
+        justify-items: center;
+        justify-content: center;
+        height: 80%;
+        padding: 0px 10px 0px 10px;
+        position: relative;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        width: 100%;
+        height: 70%;
+
+        img {
+            width: 90%;
+            grid-column: 1/2;
+            align-self: center;
+        }
+
+        .texto-portada {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            align-content: center;
+        }
+    }
+}
+
+
+.nota-al-pie {
+    display: inline;
+    top: 10px;
+    position: relative;
+    font-size: 1rem;
+    font-weight: bolder;
+    height: min-content;
+    
+
+    a {
+        text-decoration: none;
+
+        &:link {
+            color: #6B8D9E;
+        }
+
+        &:visited {
+            color: #6B8D9E;
+        }
+    }
+}
+

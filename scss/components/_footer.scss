@@ -1,0 +1,29 @@
+footer {
+    grid-area: footer;
+    background-color: #182125;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    a {
+        filter: drop-shadow(0 8px 8px 0 rgba(0, 0, 0, 1));
+
+    }
+
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 1.5rem;
+}
+
+footer a:hover {
+font-size: 2rem;   
+transition-delay: 0.1s;
+}

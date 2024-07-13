@@ -48,7 +48,7 @@ textarea {
     border-radius: 15px;
     padding: 5px;
     background-color: #d3d3d3;
-    border: #6B8D9E;
+    border: $color-tres;
     outline-style: none;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.3);
 
@@ -58,20 +58,15 @@ textarea {
     display: flex;
     justify-content: center;
     padding-bottom: 5px;
+
+    a {
+        text-decoration: none;
+        color: $color-tres;
+    }
 }
 
-a {
-    text-decoration: none;
-    color: #6B8D9E;
+.ver {
+    display: flex;
+    justify-content: center;
 }
-
-.btn {
-    color: #182125;
-    background-color: #6B8D9E;
-    color: antiquewhite;
-    font-weight: 400;
-    width: 30%;
-    align-self: center;
-}
-
 

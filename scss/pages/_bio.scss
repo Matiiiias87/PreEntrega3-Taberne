@@ -1,4 +1,5 @@
 .bio-container {
+
     height: auto;
     display: grid;
     grid-template-rows: min-content min-content min-content min-content;
@@ -6,29 +7,110 @@
     grid-row-gap: 15px;
     grid-column-gap: 10px;
     justify-content: center;
-    padding: 20px;
     margin-top: 10px;
     height: fit-content;
 
-    @include mq-sm {
-        p {
-            font-size: 14px;
-        }
+    .bio-imagen1 {
+        width: 90%;
+        grid-row: 1/2;
+        margin-bottom: 20px;
     }
 
-    @include mq-md {
+    .bio-texto1 {
+        grid-row: 2/3;
+        width: 90%;
+        margin: auto;
+    }
+
+    .bio-imagen2 {
+        width: 90%;
+        height: 100%;
+        grid-row: 3/4;
+        margin-bottom: 20px;
+    }
+
+    .bio-texto2 {
+        grid-row: 4/5;
+        width: 90%;
+        margin: auto;
+    }
+
+    .bio-texto2 h3 {
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .bio-texto3 {
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    img {
+        align-self: center;
+        justify-self: center;
+        border-radius: 10px;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 1);
+    }
+
+    p {
+        font-size: 0.8rem;
+        text-align: justify;
+        align-self: center;
+        width: 100%;
+    }
+
+    ul {
+        display: inline;
+        font-size: small;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+
+    }
+
+    h3 {
+        font-weight: 600;
+        text-align: center;
+    }
+
+    @include mq-lg {
+
         display: grid;
-        grid-template-rows: 50% 50%;
-        grid-template-columns: 50% 50%;
-        grid-row-gap: 15px;
-        grid-column-gap: 10px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 0px;
+        grid-column-gap: 5px;
         justify-content: center;
         align-content: center;
         padding: 20px 20px 40px 20px;
 
-        img {
-            justify-self: center;
-            align-self: center;
+        .bio-imagen1 {
+            width: 100%;
+            height: auto;
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+
+        .bio-texto1 {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            width: 100%;
+        }
+
+        .bio-imagen2 {
+            width: 80%;
+            height: auto;
+            grid-column: 1/2;
+            grid-row: 2/3;
+            margin-top: 41.028px;
+        }
+
+        .bio-texto2 {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            width: 100%;
         }
 
         p {
@@ -38,94 +120,49 @@
         }
     }
 
-    @include mq-lg {
+
+
+    @include mq-xl {
+        
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 45% 45%;
+        grid-row-gap: 0px;
+        grid-column-gap: 0px;
+        justify-content: center;
+        align-content: center;
+        padding: 20px 20px 40px 20px;
+
+        .bio-imagen1 {
+            width: 80%;
+            height: auto;
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+
+        .bio-texto1 {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            width: 70%;
+        }
+
+        .bio-imagen2 {
+            width: 80%;
+            height: auto;
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+
+        .bio-texto2 {
+            grid-column: 2/3;
+            grid-row: 2/3;
+            width: 80%;
+        }
+
         p {
             font-size: 1rem;
             line-height: 120%;
-            margin: 0 50px 0 30px;
-        }
-    }
-}
-
-
-.bio-imagen1 {
-    width: 100%;
-    height: 100%;
-    grid-row: 1/2;
-    border-radius: 10px;
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 1);
-
-    @include mq-md {
-        width: 100%;
-        height: auto;
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-
-    @include mq-lg {
-        width: 70%;
-    }
-}
-
-.bio-texto1 {
-    grid-row: 2/3;
-    text-align: justify;
-    align-self: center;
-    width: 100%;
-    font-size: small;
-
-    @include mq-md {
-        grid-column: 2/3;
-        grid-row: 1/2;
-        text-align: justify;
-        align-self: center;
-        width: 100%;
-    }
-}
-
-
-.bio-imagen2 {
-    width: 80%;
-    height: 100%;
-    grid-row: 3/4;
-    align-self: center;
-    justify-self: center;
-    border-radius: 10px;
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 1);
-
-    @include mq-md {
-        width: 80%;
-        height: auto;
-        grid-column: 2/3;
-        grid-row: 2/3;
-        align-self: center;
-        justify-self: center;
-    }
-
-    @include mq-lg {
-        width: 70%;
-    }
-}
-
-
-.bio-texto2 {
-    grid-row: 4/5;
-    text-align: justify;
-    align-self: center;
-    justify-self: center;
-    font-size: small;
-
-    @include mq-md {
-        grid-column: 1/2;
-        grid-row: 2/3;
-        text-align: justify;
-        font-size: small;
-        align-self: center;
-        justify-self: center;
-
-        h3 {
-            font-weight: 600;
-            text-align: center;
+            padding: 0 15px 0 15px;
         }
     }
 }
@@ -138,67 +175,33 @@
 .bio-texto3 {
     grid-column: 1/2;
     grid-row: 5/6;
-    justify-self: center;
-    align-self: center;
-    text-align: center;
     margin-bottom: 20px;
-
-
-    ul {
-        display: inline;
-        font-size: small;
-        align-self: center;
-        justify-self: center;
-    }
-
-    h3 {
-        font-weight: 600;
-        text-align: center;
-    }
-
-    @include mq-md {
-        grid-column: 1/2;
-        grid-row: 5/6;
-        justify-self: center;
-        align-self: center;
-        text-align: center;
-
-        h3 {
-            font-weight: 600;
-            text-align: center;
-        }
-
-        ul {
-            display: inline;
-            font-size: small;
-            align-self: center;
-            justify-self: center;
-        }
-    }
+    text-align: center; 
 }
-
 
 .nota-al-pie2 {
     display: inline;
+    justify-content: center;
     top: 0px;
     position: relative;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     font-weight: bolder;
     height: min-content;
 
     p {
-        padding-left: 20px;
+    text-align: center;   
+}
 
-    }
     a {
         text-decoration: none;
 
         &:link {
-            color: #6B8D9E;
+            color: $color-tres;
         }
 
         &:visited {
-            color: #6B8D9E;
+            color: $color-tres;
         }
     }
 }
+

@@ -1,0 +1,24 @@
+.botons {
+    display: flex;
+    justify-content: center;
+    color: $color-fuente;
+    background-color: $color-tres;
+    text-align: center;
+    width: 150px;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    a {
+        text-decoration: none;
+        color: $color-fuente;
+        font-weight: bolder;
+        align-self: center;
+    }
+    &:hover {
+        translate: 1px -5px;
+        transform: scale(1.1);
+        transition: box-shadow 0.5s ease;
+        box-shadow: 0 8px 8px 0 rgba(40, 40, 46, 0.5);
+        background-color: $color-hover;
+    }
+}

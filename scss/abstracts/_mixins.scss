@@ -1,0 +1,23 @@
+@mixin mq-sm {
+    @media (max-width: 768px) {
+    @content
+    }
+}
+
+@mixin mq-md {
+    @media (min-width: 769px) and (max-width: 1024px) {
+        @content
+    }
+}
+
+@mixin mq-lg {
+    @media (min-width: 1025px) and (max-width: 1340px) {
+    @content
+    }
+}
+
+@mixin mq-xl {
+    @media (min-width: 1340px) {
+        @content
+    }
+}

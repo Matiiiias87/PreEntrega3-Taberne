@@ -1,7 +1,7 @@
 footer {
     grid-area: footer;
-    background-color: #182125;
-    color: antiquewhite;
+    background-color: $color-dos;
+    color: $color-fuente;
     display: flex;
     flex-direction: row;
     justify-content: center;

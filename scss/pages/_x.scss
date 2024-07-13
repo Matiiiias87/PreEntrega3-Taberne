@@ -5,26 +5,16 @@
     margin-bottom: 10px;
 
     img {
-        width: 50%;
+        width: 80%;
         align-self: center;
 
-        @include mq-sm {
-            width: 30%;
-            padding-top: 100px;
-            justify-items: center;
-        }
     }
 
     p {
         text-align: center;
         font-weight: 600;
         padding-top: 30px;
-
-        @include mq-sm {
-            text-align: center;
-            font-weight: 600;
-            padding-top: 30px;
-        }
     }
+
 }
 

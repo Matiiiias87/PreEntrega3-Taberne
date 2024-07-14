@@ -24,7 +24,6 @@
 
     .bio-imagen2 {
         width: 90%;
-        height: 100%;
         grid-row: 3/4;
         margin-bottom: 20px;
     }
@@ -43,7 +42,7 @@
     .bio-texto3 {
         grid-column: 1/2;
         grid-row: 5/6;
-        margin-bottom: 20px;
+        margin: 50px;
         text-align: center;
     }
 
@@ -59,6 +58,7 @@
         text-align: justify;
         align-self: center;
         width: 100%;
+        margin: 0px;
     }
 
     ul {

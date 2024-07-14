@@ -116,6 +116,7 @@ main {
   border-radius: 10px;
   background-color: #1d282d;
   font-weight: bolder;
+  color: #6B8D9E;
 }
 .nav-link:hover {
   translate: 1px -5px;
